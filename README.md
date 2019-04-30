@@ -11,12 +11,12 @@ Albania (first on NordVPN list (alphabetical)). According to NordVPN's site, the
 
 ![Albania Screenshot](images/al.png)
 
-Run the script by passing the country code (initials) and server count number. 
+Run the script by passing the country code (initials), beginning number and end number.
 
 *Notice that the subdomain name numbers may lie outside of the count number. For instance, USA (at the time of writing this) has 1798 servers - but a server number of 2971 exists (us2971.nordvpn.com). So, the count number should be adjusted until the total results from the script yeilds the count listed (or higher) on the NordVPN site. The count will begin at 0 and will stop at the count number*
 
 ```
-root@demon:~$ ./nordvpn-blacklist-gen.sh al 100
+root@demon:~$ ./nordvpn-blacklist-gen.sh al 0 100
 al7.nordvpn.com:Address: 80.246.28.33
 al8.nordvpn.com:Address: 80.246.28.35
 al9.nordvpn.com:Address: 31.171.152.19
@@ -32,7 +32,7 @@ USA (example used because that's where I live). According to NordVPN's site, the
 ![USA Screenshot](images/us.PNG)
 
 ```
-root@demon:~/nordvpn-ip-tool$ ./nordvpn-blacklist-gen.sh us 3000
+root@demon:~/nordvpn-ip-tool$ ./nordvpn-blacklist-gen.sh us 0 3000
 us324.nordvpn.com:Address: 104.200.65.178
 us349.nordvpn.com:Address: 162.210.198.129
 us350.nordvpn.com:Address: 162.210.198.130
@@ -67,6 +67,7 @@ Below is a list of the dependencies required for this script,
 * [Linux](https://www.demonlinux.com/)
 * [Bash](https://www.gnu.org/software/bash/)
 * [host](https://linux.die.net/man/1/host)
+* [seq](https://linux.die.net/man/1/seq)
 * [printf](https://linux.die.net/man/3/printf)
 ## Installation
 You can simply copy the script to your $PATH like so,
