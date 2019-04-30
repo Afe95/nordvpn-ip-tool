@@ -4,7 +4,7 @@ This tool can be used for gathering all [NordVPN](https://nordvpn.com/) IP addre
 * List of USA Servers: https://nordvpn.com/servers/
 * Tool from NordVPN for subdomain format: https://nordvpn.com/servers/tools/
 
-## Usage
+## Basic Usage
 In the next few section, we will cover a few examples of how to use the script to generate the IP list(s).
 ### Albania (AL)
 Albania (first on NordVPN list (alphabetical)). According to NordVPN's site, they have 6 servers so I entered 100 to be safe and we found 1 extra that was not listed on their site:
@@ -60,9 +60,41 @@ us512.nordvpn.com:Address: 181.215.110.146
 us513.nordvpn.com:Address: 181.215.110.147
 ...
 ```
-### Mass Scan
-You can use the [avail-country-list.txt](avail-country-list.txt) as input ins a simple loop to scan for all countries.
-
+### Advanced Usage
+You can use the [avail-country-list.txt](avail-country-list.txt) as input in a simple Bash `for` loop to scan for all countries.
+```
+root@demon:/infosec/defense/nordvpn-ip-tool# while read country; do ./nordvpn-blacklist-gen.sh $country 0 10; done < avail-country-list.txt 
+al7.nordvpn.com,80.246.28.33
+al8.nordvpn.com,80.246.28.35
+al9.nordvpn.com,31.171.152.19
+al10.nordvpn.com,31.171.152.11
+ar4.nordvpn.com,131.255.7.84
+ar8.nordvpn.com,190.105.235.82
+ar9.nordvpn.com,131.255.4.122
+ar10.nordvpn.com,131.255.4.237
+au7.nordvpn.com,168.1.12.244
+ba5.nordvpn.com,185.99.3.18
+ba6.nordvpn.com,185.99.3.20
+ba7.nordvpn.com,185.99.3.104
+ba8.nordvpn.com,185.99.3.106
+bg8.nordvpn.com,82.102.23.85
+bg9.nordvpn.com,82.102.23.86
+cl7.nordvpn.com,190.105.239.117
+cl8.nordvpn.com,45.228.209.43
+cl9.nordvpn.com,45.228.209.51
+cl10.nordvpn.com,190.105.239.168
+cr8.nordvpn.com,190.112.223.136
+cr9.nordvpn.com,179.48.251.226
+cr10.nordvpn.com,179.48.251.229
+cy0.nordvpn.com,185.205.184.18
+cy4.nordvpn.com,185.106.102.216
+cy5.nordvpn.com,185.106.102.240
+cy6.nordvpn.com,185.106.102.201
+cy7.nordvpn.com,185.191.206.3
+cy8.nordvpn.com,185.191.206.8
+cy9.nordvpn.com,185.191.206.13
+cy10.nordvpn.com,185.106.102.200
+```
 ### Resume Scan
 If you decide to `tee` the output to a log file and your results don't match the server count listed on the NordVPN page, you can resume the scan by simply making the begin number the end number used in the previous command liek so,
 ```
