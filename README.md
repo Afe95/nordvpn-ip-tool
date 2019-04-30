@@ -60,7 +60,7 @@ us512.nordvpn.com:Address: 181.215.110.146
 us513.nordvpn.com:Address: 181.215.110.147
 ...
 ```
-### Advanced Usage
+## Advanced Usage
 You can use the [avail-country-list.txt](avail-country-list.txt) as input in a simple Bash `for` or `while` loop to scan for all countries. Below is an example of a `while` loop using `read` and will scan each country code for 0-10 subdomains.
 ```
 root@demon:/infosec/defense/nordvpn-ip-tool# while read country;\
