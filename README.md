@@ -62,13 +62,7 @@ us513.nordvpn.com:Address: 181.215.110.147
 ```
 ### Mass Scan
 You can use the [avail-country-list.txt](avail-country-list.txt) as input ins a simple loop to scan for all countries.
-## Dependencies
-Below is a list of the dependencies required for this script,
-* [Linux](https://www.demonlinux.com/)
-* [Bash](https://www.gnu.org/software/bash/)
-* [host](https://linux.die.net/man/1/host)
-* [seq](https://linux.die.net/man/1/seq)
-* [printf](https://linux.die.net/man/3/printf)
+
 ### Resume Scan
 If you decide to `tee` the output to a log file and your results don't match the server count listed on the NordVPN page, you can resume the scan by simply making the begin number the end number used in the previous command liek so,
 ```
@@ -89,3 +83,10 @@ root@demon:~# cd nordvpn-ip-tool
 root@demon:~/nordvpn-ip-tool# chmod +x nordvpn-blacklist-gen.sh
 root@demon:~/nordvpn-ip-tool# sudo cp nordvpn-blacklist-gen.sh /usr/local/bin/
 ```
+## Dependencies
+Below is a list of the dependencies required for this script,
+* [Linux](https://www.demonlinux.com/)
+* [Bash](https://www.gnu.org/software/bash/)
+* [host](https://linux.die.net/man/1/host)
+* [seq](https://linux.die.net/man/1/seq)
+* [printf](https://linux.die.net/man/3/printf)
