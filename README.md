@@ -25,3 +25,10 @@ al12.nordvpn.com:Address: 31.171.152.235
 al13.nordvpn.com:Address: 31.171.152.243
 root@demon:~$ 
 ```
+
+## Dependencies
+Below is a list of the dependencies required for this script,
+* Linux
+* Bash
+* host
+* printf
