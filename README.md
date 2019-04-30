@@ -6,6 +6,8 @@ NordVPN is used regularly by scammers to commit fraud to our systems. To create 
 * Tool from NordVPN for subdomain format: https://nordvpn.com/servers/tools/
 
 ## Example
+In the next few section, we will cover a few examples of how to use the script to generate the IP list(s).
+### Albania (AL)
 Albania (first on NordVPN list (alphabetical)). According to NordVPN's site, they have 6 servers so I entered 100 to be safe and we found 1 extra that was not listed on their site:
 
 ![Albania Screenshot](images/al.png)
@@ -25,7 +27,42 @@ al12.nordvpn.com:Address: 31.171.152.235
 al13.nordvpn.com:Address: 31.171.152.243
 root@demon:~$ 
 ```
+### USA
+USA (example used because that's where I live). According to NordVPN's site, they have 1798 servers so I entered 3000 to be safe.
 
+
+
+```
+root@demon:~/nordvpn-ip-tool$ ./nordvpn-blacklist-gen.sh us 3000
+us324.nordvpn.com:Address: 104.200.65.178
+us349.nordvpn.com:Address: 162.210.198.129
+us350.nordvpn.com:Address: 162.210.198.130
+us351.nordvpn.com:Address: 162.210.198.131
+us352.nordvpn.com:Address: 162.210.198.132
+us353.nordvpn.com:Address: 209.58.133.167
+us354.nordvpn.com:Address: 209.58.133.168
+us355.nordvpn.com:Address: 209.58.133.169
+us356.nordvpn.com:Address: 209.58.133.170
+us381.nordvpn.com:Address: 209.58.144.227
+us382.nordvpn.com:Address: 209.58.144.228
+us383.nordvpn.com:Address: 209.58.144.229
+us384.nordvpn.com:Address: 209.58.144.230
+us435.nordvpn.com:Address: 23.227.207.3
+us436.nordvpn.com:Address: 23.227.207.4
+us437.nordvpn.com:Address: 23.227.207.5
+us438.nordvpn.com:Address: 23.227.207.6
+us502.nordvpn.com:Address: 181.215.110.136
+us503.nordvpn.com:Address: 181.215.110.137
+us504.nordvpn.com:Address: 181.215.110.138
+us505.nordvpn.com:Address: 181.215.110.139
+us510.nordvpn.com:Address: 181.215.110.144
+us511.nordvpn.com:Address: 181.215.110.145
+us512.nordvpn.com:Address: 181.215.110.146
+us513.nordvpn.com:Address: 181.215.110.147
+...
+```
+### Mass Scan
+You can use the ...
 ## Dependencies
 Below is a list of the dependencies required for this script,
 * Linux
