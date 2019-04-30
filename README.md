@@ -74,7 +74,7 @@ Which scans from `us0.nordvpn.com` to `us3000.nordvpn.com`. Then,
 root@demon:~# ./nordvpn-blacklist-gen.sh us 3001 5000 | tee -a us-scan-04.30.2019.csv
 ...
 ```
-Will then scan from `us3001.nordvpn.com` to `us5000.nordvpn.com` and **append** the results suing the `-a` argument to `tee` to the CSV file.
+Will then scan from `us3001.nordvpn.com` to `us5000.nordvpn.com` and **append** the results using the `-a` argument to `tee` to the CSV file.
 ## Installation
 You can simply copy the script to your $PATH like so,
 ```
