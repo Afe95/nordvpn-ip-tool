@@ -69,6 +69,18 @@ Below is a list of the dependencies required for this script,
 * [host](https://linux.die.net/man/1/host)
 * [seq](https://linux.die.net/man/1/seq)
 * [printf](https://linux.die.net/man/3/printf)
+### Resume Scan
+If you decide to `tee` the output to a log file and your results don't match the server count listed on the NordVPN page, you can resume the scan by simply making the begin number the end number used in the previous command liek so,
+```
+root@demon:~# ./nordvpn-blacklist-gen.sh us 0 3000 | tee us-scan-04.30.2019.csv
+...
+```
+Which scans from `us0.nordvpn.com` to `us3000.nordvpn.com`. Then,
+```
+root@demon:~# ./nordvpn-blacklist-gen.sh us 3001 5000 | tee us-scan-04.30.2019.csv
+...
+```
+Will then scan from `us3001.nordvpn.com` to `us5000.nordvpn.com`
 ## Installation
 You can simply copy the script to your $PATH like so,
 ```
