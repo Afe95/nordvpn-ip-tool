@@ -1,6 +1,5 @@
 # NordVPN IP Tool
-Gathering all IP addresses for Blacklists.
-NordVPN is used regularly by scammers to commit fraud to our systems. To create a blacklist of all NordVPNs IP addresses, I wrote the following scripts.
+This tool can be used for gathering all NordVPN IP addresses for Blacklists or other usage. Our logs reveal that NordVPN is used regularly by scammers to attempt fraud and attacks to our systems. To create a blacklist of all NordVPNs IP addresses, I wrote the following script.
 
 * List of USA Servers: https://nordvpn.com/servers/
 * Tool from NordVPN for subdomain format: https://nordvpn.com/servers/tools/
