@@ -4,7 +4,7 @@ This tool can be used for gathering all [NordVPN](https://nordvpn.com/) IP addre
 * List of USA Servers: https://nordvpn.com/servers/
 * Tool from NordVPN for subdomain format: https://nordvpn.com/servers/tools/
 
-## Example
+## Examples
 In the next few section, we will cover a few examples of how to use the script to generate the IP list(s).
 ### Albania (AL)
 Albania (first on NordVPN list (alphabetical)). According to NordVPN's site, they have 6 servers so I entered 100 to be safe and we found 1 extra that was not listed on their site:
@@ -68,3 +68,11 @@ Below is a list of the dependencies required for this script,
 * [Bash](https://www.gnu.org/software/bash/)
 * [host](https://linux.die.net/man/1/host)
 * [printf](https://linux.die.net/man/3/printf)
+## Installation
+You can simply copy the script to your $PATH like so,
+```
+root@demon:~ # git clone https://github.com/weaknetlabs/nordvpn-ip-tool/
+root@demon:~ # cd nordvpn-ip-tool
+root@demon:~/nordvpn-ip-tool # chmod +x nordvpn-blacklist-gen.sh
+root@demon:~/nordvpn-ip-tool # sudo cp nordvpn-blacklist-gen.sh /usr/local/bin/
+```
