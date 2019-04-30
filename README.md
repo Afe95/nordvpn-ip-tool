@@ -4,7 +4,7 @@ This tool can be used for gathering all [NordVPN](https://nordvpn.com/) IP addre
 * List of USA Servers: https://nordvpn.com/servers/
 * Tool from NordVPN for subdomain format: https://nordvpn.com/servers/tools/
 
-## Examples
+## Usage
 In the next few section, we will cover a few examples of how to use the script to generate the IP list(s).
 ### Albania (AL)
 Albania (first on NordVPN list (alphabetical)). According to NordVPN's site, they have 6 servers so I entered 100 to be safe and we found 1 extra that was not listed on their site:
@@ -90,3 +90,6 @@ Below is a list of the dependencies required for this script,
 * [host](https://linux.die.net/man/1/host)
 * [seq](https://linux.die.net/man/1/seq)
 * [printf](https://linux.die.net/man/3/printf)
+
+## Example Scans
+Check the [CSV Directory](cvs/) for a few example scans. These were last ran on 04.30.2019.
