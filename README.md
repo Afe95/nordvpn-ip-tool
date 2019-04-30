@@ -71,8 +71,8 @@ Below is a list of the dependencies required for this script,
 ## Installation
 You can simply copy the script to your $PATH like so,
 ```
-root@demon:~ # git clone https://github.com/weaknetlabs/nordvpn-ip-tool/
-root@demon:~ # cd nordvpn-ip-tool
-root@demon:~/nordvpn-ip-tool # chmod +x nordvpn-blacklist-gen.sh
-root@demon:~/nordvpn-ip-tool # sudo cp nordvpn-blacklist-gen.sh /usr/local/bin/
+root@demon:~# git clone https://github.com/weaknetlabs/nordvpn-ip-tool/
+root@demon:~# cd nordvpn-ip-tool
+root@demon:~/nordvpn-ip-tool# chmod +x nordvpn-blacklist-gen.sh
+root@demon:~/nordvpn-ip-tool# sudo cp nordvpn-blacklist-gen.sh /usr/local/bin/
 ```
