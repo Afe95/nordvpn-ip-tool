@@ -27,10 +27,10 @@ al12.nordvpn.com:Address: 31.171.152.235
 al13.nordvpn.com:Address: 31.171.152.243
 root@demon:~$ 
 ```
-### USA
+### United States (US)
 USA (example used because that's where I live). According to NordVPN's site, they have 1798 servers so I entered 3000 to be safe.
 
-
+![USA Screenshot](images/us.PNG)
 
 ```
 root@demon:~/nordvpn-ip-tool$ ./nordvpn-blacklist-gen.sh us 3000
@@ -62,7 +62,7 @@ us513.nordvpn.com:Address: 181.215.110.147
 ...
 ```
 ### Mass Scan
-You can use the ...
+You can use the [avail-country-list.txt](avail-country-list.txt) as input ins a simple loop to scan for all countries.
 ## Dependencies
 Below is a list of the dependencies required for this script,
 * Linux
