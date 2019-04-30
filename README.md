@@ -6,7 +6,10 @@ NordVPN is used regularly by scammers to commit fraud to our systems. To create 
 * Tool from NordVPN for subdomain format: https://nordvpn.com/servers/tools/
 
 ## Example
-Albania (first on list (alphabetical)
+Albania (first on NordVPN list (alphabetical))
+
+![Albania Screenshot](images/al.png)
+
 ```
 root@demon:~$ ./nordvpn-blacklist-gen.sh al 100
 al7.nordvpn.com:Address: 80.246.28.33
