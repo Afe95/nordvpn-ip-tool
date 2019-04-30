@@ -1,5 +1,5 @@
 # NordVPN IP Tool
-This tool can be used for gathering all NordVPN IP addresses for Blacklists or other usage. Our logs reveal that NordVPN is used regularly by scammers to attempt fraud and attacks to our systems. To create a blacklist of all NordVPN's IP addresses, I wrote the following script.
+This tool can be used for gathering all [NordVPN](https://nordvpn.com/) IP addresses for Blacklists or other usage. Our logs reveal that NordVPN is used regularly by scammers to attempt fraud and attacks to our systems. To create a blacklist of all NordVPN's IP addresses, I wrote the following script.
 
 * List of USA Servers: https://nordvpn.com/servers/
 * Tool from NordVPN for subdomain format: https://nordvpn.com/servers/tools/
@@ -64,7 +64,7 @@ us513.nordvpn.com:Address: 181.215.110.147
 You can use the [avail-country-list.txt](avail-country-list.txt) as input ins a simple loop to scan for all countries.
 ## Dependencies
 Below is a list of the dependencies required for this script,
-* Linux
-* Bash
-* host
-* printf
+* [Linux](https://www.demonlinux.com/)
+* [Bash](https://www.gnu.org/software/bash/)
+* [host](https://linux.die.net/man/1/host)
+* [printf](https://linux.die.net/man/3/printf)
