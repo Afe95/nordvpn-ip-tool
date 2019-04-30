@@ -10,6 +10,9 @@ Albania (first on NordVPN list (alphabetical)). According to NordVPN's site, the
 
 ![Albania Screenshot](images/al.png)
 
+Run the script by passing the country code (initials) and server count number. 
+
+*Notice that the subdomain name numbers may lie outside of the count number. For instance, USA (at the time of writing this) has 1798 servers - but a server number of 2971 exists (us2971.nordvpn.com). So, the range should be adjusted until the total results from the script yeilds the count listed (or higher) on the NordVPN site.*
 ```
 root@demon:~$ ./nordvpn-blacklist-gen.sh al 100
 al7.nordvpn.com:Address: 80.246.28.33
