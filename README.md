@@ -6,7 +6,7 @@ NordVPN is used regularly by scammers to commit fraud to our systems. To create 
 * Tool from NordVPN for subdomain format: https://nordvpn.com/servers/tools/
 
 ## Example
-Albania (first on NordVPN list (alphabetical))
+Albania (first on NordVPN list (alphabetical)). According to NordVPN's site, they have 6 servers so I entered 100 to be safe and we found 1 extra that was not listed on their site:
 
 ![Albania Screenshot](images/al.png)
 
