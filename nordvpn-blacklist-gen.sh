@@ -6,16 +6,17 @@
 #  from: https://nordvpn.com/servers/
 # 
 init=$1
-count=$2
+begin=$2
+end=$3
 if [[ "$2" == "" ]]
  then
   printf "Usage: ./nordvpn-blacklist-gen.sh (COUNTRY INITIALS) (COUNT)\n"
   exit 1
 fi
 # E.g: ./nordvpn-blacklist-gen.sh us 3000
-for num in $(seq 0 $count)
- do host=$(nslookup ${init}${num}.nordvpn.com| grep 'Address' | grep -v '#')
+for num in $(seq $begin $end)
+ do host=$(nslookup ${init}${num}.nordvpn.com| grep 'Address' | grep -v '#'| sed -re 's/[^0-9\.]//g')
   if [[ "$host" != "" ]]
-   then printf "${init}${num}.nordvpn.com:$host\n"
+   then printf "${init}${num}.nordvpn.com,$host\n"
   fi
  done
