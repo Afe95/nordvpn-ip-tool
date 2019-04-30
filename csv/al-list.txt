@@ -1,0 +1,7 @@
+al7.nordvpn.com,80.246.28.33
+al8.nordvpn.com,80.246.28.35
+al9.nordvpn.com,31.171.152.19
+al10.nordvpn.com,31.171.152.11
+al11.nordvpn.com,31.171.152.115
+al12.nordvpn.com,31.171.152.235
+al13.nordvpn.com,31.171.152.243
