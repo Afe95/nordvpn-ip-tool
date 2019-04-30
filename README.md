@@ -92,4 +92,4 @@ Below is a list of the dependencies required for this script,
 * [printf](https://linux.die.net/man/3/printf)
 
 ## Example Scans
-Check the [CSV Directory](cvs/) for a few example scans. These were last ran on 04.30.2019.
+Check the [CSV Directory](csv/) for a few example scans. These were last ran on 04.30.2019.
