@@ -63,7 +63,8 @@ us513.nordvpn.com:Address: 181.215.110.147
 ### Advanced Usage
 You can use the [avail-country-list.txt](avail-country-list.txt) as input in a simple Bash `for` loop to scan for all countries.
 ```
-root@demon:/infosec/defense/nordvpn-ip-tool# while read country; do ./nordvpn-blacklist-gen.sh $country 0 10; done < avail-country-list.txt 
+root@demon:/infosec/defense/nordvpn-ip-tool# while read country;\
+ do ./nordvpn-blacklist-gen.sh $country 0 10; done < avail-country-list.txt 
 al7.nordvpn.com,80.246.28.33
 al8.nordvpn.com,80.246.28.35
 al9.nordvpn.com,31.171.152.19
