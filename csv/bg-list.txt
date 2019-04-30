@@ -1,0 +1,13 @@
+bg8.nordvpn.com,82.102.23.85
+bg9.nordvpn.com,82.102.23.86
+bg14.nordvpn.com,185.94.192.179
+bg15.nordvpn.com,185.94.192.181
+bg16.nordvpn.com,193.9.115.98
+bg17.nordvpn.com,193.9.115.100
+bg18.nordvpn.com,185.216.32.139
+bg19.nordvpn.com,185.216.32.179
+bg20.nordvpn.com,185.216.32.181
+bg21.nordvpn.com,82.102.23.83
+bg22.nordvpn.com,82.102.23.85
+bg23.nordvpn.com,82.102.23.11
+bg24.nordvpn.com,82.102.23.13

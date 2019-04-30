@@ -1,0 +1,4 @@
+ba5.nordvpn.com,185.99.3.18
+ba6.nordvpn.com,185.99.3.20
+ba7.nordvpn.com,185.99.3.104
+ba8.nordvpn.com,185.99.3.106

@@ -1,0 +1,4 @@
+cl7.nordvpn.com,190.105.239.117
+cl8.nordvpn.com,45.228.209.43
+cl9.nordvpn.com,45.228.209.51
+cl10.nordvpn.com,190.105.239.168

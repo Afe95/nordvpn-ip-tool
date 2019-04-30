@@ -1,0 +1,12 @@
+cr8.nordvpn.com,190.112.223.136
+cr9.nordvpn.com,179.48.251.226
+cr10.nordvpn.com,179.48.251.229
+cr11.nordvpn.com,138.59.18.102
+cr12.nordvpn.com,190.112.223.122
+cr13.nordvpn.com,179.48.249.131
+cr14.nordvpn.com,179.48.249.134
+cr15.nordvpn.com,179.48.249.137
+cr16.nordvpn.com,179.48.249.140
+cr17.nordvpn.com,190.112.223.100
+cr18.nordvpn.com,190.112.223.102
+cr19.nordvpn.com,179.48.251.234
