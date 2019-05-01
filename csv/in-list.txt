@@ -1,0 +1,15 @@
+in19.nordvpn.com,165.231.255.11
+in20.nordvpn.com,165.231.255.27
+in21.nordvpn.com,165.231.255.19
+in22.nordvpn.com,165.231.255.35
+in23.nordvpn.com,103.221.233.14
+in24.nordvpn.com,185.203.122.4
+in25.nordvpn.com,185.203.122.5
+in26.nordvpn.com,185.203.122.6
+in27.nordvpn.com,185.203.122.7
+in28.nordvpn.com,185.203.122.8
+in29.nordvpn.com,185.203.122.9
+in30.nordvpn.com,185.203.122.10
+in31.nordvpn.com,185.203.122.11
+in32.nordvpn.com,185.203.122.13
+in33.nordvpn.com,185.203.122.12

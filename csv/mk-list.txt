@@ -1,0 +1,2 @@
+mk5.nordvpn.com,185.225.28.19
+mk6.nordvpn.com,185.225.28.21

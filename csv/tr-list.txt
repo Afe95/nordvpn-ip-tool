@@ -1,0 +1,14 @@
+tr8.nordvpn.com,45.123.118.131
+tr9.nordvpn.com,45.123.118.132
+tr10.nordvpn.com,45.123.118.133
+tr11.nordvpn.com,45.123.118.134
+tr12.nordvpn.com,45.123.118.61
+tr13.nordvpn.com,213.128.80.59
+tr14.nordvpn.com,213.128.80.61
+tr15.nordvpn.com,176.53.118.90
+tr16.nordvpn.com,176.53.118.92
+tr17.nordvpn.com,176.53.23.251
+tr18.nordvpn.com,46.45.138.99
+tr19.nordvpn.com,46.45.138.101
+tr20.nordvpn.com,31.210.123.235
+tr21.nordvpn.com,31.210.123.237

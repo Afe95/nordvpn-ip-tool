@@ -1,0 +1,7 @@
+tw12.nordvpn.com,60.248.112.239
+tw13.nordvpn.com,60.248.112.245
+tw16.nordvpn.com,125.227.64.119
+tw17.nordvpn.com,60.249.228.245
+tw19.nordvpn.com,125.227.221.26
+tw20.nordvpn.com,60.248.112.253
+tw21.nordvpn.com,60.248.112.237

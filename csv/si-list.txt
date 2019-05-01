@@ -1,0 +1,4 @@
+si5.nordvpn.com,193.138.63.147
+si6.nordvpn.com,193.138.63.150
+si7.nordvpn.com,193.138.63.153
+si8.nordvpn.com,193.138.63.156

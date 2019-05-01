@@ -1,0 +1,10 @@
+ua6.nordvpn.com,185.247.211.185
+ua8.nordvpn.com,193.228.52.63
+ua9.nordvpn.com,185.167.160.20
+ua10.nordvpn.com,185.157.78.88
+ua11.nordvpn.com,185.247.210.101
+ua13.nordvpn.com,78.109.29.35
+ua14.nordvpn.com,78.109.29.61
+ua15.nordvpn.com,45.9.236.12
+ua16.nordvpn.com,45.9.237.15
+ua17.nordvpn.com,45.9.238.20

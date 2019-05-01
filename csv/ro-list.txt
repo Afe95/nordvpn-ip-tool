@@ -1,0 +1,14 @@
+ro33.nordvpn.com,89.46.103.171
+ro34.nordvpn.com,89.46.102.115
+ro35.nordvpn.com,86.105.9.91
+ro36.nordvpn.com,86.105.9.93
+ro37.nordvpn.com,86.105.9.99
+ro38.nordvpn.com,86.105.9.101
+ro39.nordvpn.com,89.46.102.11
+ro40.nordvpn.com,89.46.102.13
+ro41.nordvpn.com,185.210.218.219
+ro42.nordvpn.com,185.210.218.221
+ro43.nordvpn.com,5.254.96.147
+ro44.nordvpn.com,5.254.96.149
+ro45.nordvpn.com,109.163.234.139
+ro46.nordvpn.com,109.163.234.141

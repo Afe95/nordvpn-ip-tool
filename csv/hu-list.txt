@@ -1,0 +1,15 @@
+hu7.nordvpn.com,185.189.114.243
+hu8.nordvpn.com,185.189.114.244
+hu9.nordvpn.com,185.189.114.245
+hu10.nordvpn.com,185.189.114.246
+hu24.nordvpn.com,185.189.114.27
+hu25.nordvpn.com,185.189.114.29
+hu26.nordvpn.com,185.128.26.90
+hu27.nordvpn.com,185.128.26.92
+hu28.nordvpn.com,185.189.114.235
+hu29.nordvpn.com,185.128.26.51
+hu30.nordvpn.com,185.128.26.59
+hu31.nordvpn.com,185.128.26.171
+hu32.nordvpn.com,185.128.26.173
+hu33.nordvpn.com,185.189.114.243
+hu34.nordvpn.com,185.189.114.245

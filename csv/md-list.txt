@@ -1,0 +1,5 @@
+md6.nordvpn.com,178.175.133.99
+md7.nordvpn.com,178.175.133.101
+md8.nordvpn.com,178.175.133.104
+md9.nordvpn.com,178.175.133.106
+md10.nordvpn.com,178.175.132.27

@@ -1,0 +1,15 @@
+lv17.nordvpn.com,80.246.31.8
+lv18.nordvpn.com,80.246.31.10
+lv19.nordvpn.com,80.246.31.12
+lv20.nordvpn.com,80.246.31.14
+lv21.nordvpn.com,185.176.221.170
+lv22.nordvpn.com,196.240.54.3
+lv23.nordvpn.com,196.240.54.5
+lv24.nordvpn.com,196.240.54.11
+lv25.nordvpn.com,196.240.54.13
+lv26.nordvpn.com,196.240.54.19
+lv27.nordvpn.com,196.240.54.21
+lv28.nordvpn.com,196.240.54.35
+lv29.nordvpn.com,196.240.54.37
+lv30.nordvpn.com,80.246.31.3
+lv31.nordvpn.com,80.246.31.5
