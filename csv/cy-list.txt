@@ -1,0 +1,8 @@
+cy0.nordvpn.com,185.205.184.18
+cy4.nordvpn.com,185.106.102.216
+cy5.nordvpn.com,185.106.102.240
+cy6.nordvpn.com,185.106.102.201
+cy7.nordvpn.com,185.191.206.3
+cy8.nordvpn.com,185.191.206.8
+cy9.nordvpn.com,185.191.206.13
+cy10.nordvpn.com,185.106.102.200
