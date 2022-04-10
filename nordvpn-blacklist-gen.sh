@@ -18,6 +18,6 @@ fi
 for num in $(seq $begin $end)
  do host=$(nslookup ${init}${num}.nordvpn.com 2>/dev/null | grep 'Address' | grep -v '#'| sed -re 's/[^0-9\.]//g')
   if [[ "$host" != "" ]] # something was returned
-   then printf "${init}${num}.nordvpn.com,$host\n" # will ultimately generate a CSV
+   then printf "$host\n" # will ultimately generate a CSV
   fi
- done
+done

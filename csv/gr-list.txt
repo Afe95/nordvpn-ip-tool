@@ -1,7 +1,0 @@
-gr7.nordvpn.com,185.4.132.8
-gr8.nordvpn.com,185.4.132.19
-gr9.nordvpn.com,62.74.217.212
-gr10.nordvpn.com,62.74.217.213
-gr11.nordvpn.com,185.4.132.15
-gr12.nordvpn.com,87.239.248.73
-gr13.nordvpn.com,185.134.114.7

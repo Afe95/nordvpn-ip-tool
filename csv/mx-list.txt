@@ -1,7 +1,0 @@
-mx12.nordvpn.com,185.153.177.2
-mx13.nordvpn.com,185.153.177.4
-mx14.nordvpn.com,185.153.177.6
-mx15.nordvpn.com,185.153.177.7
-mx16.nordvpn.com,185.153.177.8
-mx17.nordvpn.com,185.153.177.9
-mx18.nordvpn.com,185.153.177.10

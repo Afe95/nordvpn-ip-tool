@@ -1,7 +1,0 @@
-my5.nordvpn.com,103.212.70.207
-my6.nordvpn.com,103.212.70.92
-my7.nordvpn.com,103.212.70.235
-my9.nordvpn.com,103.106.250.39
-my10.nordvpn.com,103.106.250.28
-my11.nordvpn.com,202.176.5.118
-my12.nordvpn.com,139.5.177.229

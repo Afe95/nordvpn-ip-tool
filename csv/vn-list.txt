@@ -1,4 +1,0 @@
-vn3.nordvpn.com,43.239.224.59
-vn4.nordvpn.com,103.42.57.48
-vn5.nordvpn.com,118.69.201.202
-vn6.nordvpn.com,202.143.111.135
