@@ -9,7 +9,7 @@ rm $IP_FILE
 
 CMD=$(cat lists/avail-country-list.txt)
 for COUNTRY in $CMD; do
-   ./nordvpn-blacklist-gen.sh $COUNTRY 0 3000 > $IP_FILE
+   ./nordvpn-blacklist-gen.sh $COUNTRY 0 3000 >> $IP_FILE
 done
 
 wc -l $IP_FILE
